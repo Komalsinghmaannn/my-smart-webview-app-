@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_arrow_back"
+        android:id="@+id/action_back"
+        android:orderInCategory="100"
+        android:title="@string/action_back"
+        app:showAsAction="never" />
+    <item
+        android:icon="@drawable/ic_arrow_forward"
+        android:id="@+id/action_forward"
+        android:orderInCategory="100"
+        android:title="forward"
+        app:showAsAction="never" />
+
+    <item
+        android:icon="@drawable/ic_refresh"
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        android:title="@string/action_refresh"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_copy"
+        android:orderInCategory="100"
+        android:title="@string/action_copy"
+        app:showAsAction="never" />
+    <item
+        android:icon="@drawable/torch"
+        android:id="@+id/action_light"
+        android:orderInCategory="100"
+        android:title="@string/action_copy"
+        app:showAsAction="always" />
+
+    <item
+        android:icon="@drawable/telephone"
+        android:id="@+id/phone"
+        android:orderInCategory="100"
+        android:title="@string/action_copy"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/scan"
+        android:id="@+id/qr"
+        android:orderInCategory="100"
+        android:title="@string/action_copy"
+        app:showAsAction="always" />
+
+    <item
+        android:icon="@drawable/ganerator"
+        android:id="@+id/qrcodege"
+        android:orderInCategory="100"
+        android:title="Qr Code Generator"
+        app:showAsAction="never" />
+
+
+
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#000"
+    android:layout_height="match_parent"
+    tools:context=".light">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Switch On"
+        android:textSize="30sp"
+        android:fontFamily="monospace"
+        android:onClick="toggle"/>
+
+    <Button
+        android:layout_marginBottom="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#050202"
+        android:text="Settings"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:onClick="goToSettings"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#050202"
+        android:text="Home"
+        android:textColor="#FFA000"
+        android:layout_alignParentBottom="true"
+        android:onClick="home"/>
+
+</RelativeLayout>

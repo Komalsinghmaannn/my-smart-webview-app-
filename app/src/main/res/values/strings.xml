@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">Mob Top</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">WebView App</string>
+    <string name="nav_header_subtitle">Example Description</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_back">Back</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_copy">Copy Link</string>
+    <string name="storage_manifest">Storage permission is required.</string>
+    <string name="storage_manifest_title">Please give me permission.</string>
+    <string name="download_info">Downloading.</string>
+    <string name="about_title">This is a Offline Page.</string>
+    <string name="about_content">This page will work as offline and you will be page about the application. You can also use this page as an offline html page. You can contact the Android WebView application. Email: 1mustafaersoy@gmail.com </string>
+    <string name="action_settings">Settings</string>
+    <string name="forward" />
+    <string name="tv_text_title_ShakeThreshold">Shake Threshold</string>
+    <string name="button_text_Save">Save</string>
+    <string name="button_text_Settings">Settings</string>
+    <string name="tv_text_heading_Settings">Settings</string>
+    <string name="tv_text_explaination_st">How hard to shake to switch flashlight on?</string>
+    <string name="iv_contentDisc">Gif Image to show shake motion</string>
+    <string name="switch_on_text">Switch On</string>
+    <string name="switch_off_text">Switch Off</string>
+    <string name="dl_downloading" />
+    <string name="dl_downloading2" />
+
+    <string name="action_night_mode">Night Mode</string>
+    <string name="bookmark">Bookmark on position %d</string>
+    <string name="str_item_title">Om Telolet Om</string>
+    <string name="str_item_description">Fenomena om telolet om yang mendunia</string>
+
+    <string name="folderName">Folder Name</string>
+    <string name="appName">Simple Image Gallery</string>
+    <string name="empty">No Images on this device</string>
+
+
+    <string name="share_location">Share</string>
+    <string name="copy_location">Copy</string>
+    <string name="view_location">View</string>
+    <string name="copied">Copied to clipboard</string>
+    <string name="clipboard_error">Failed to copy text to clipboard</string>
+    <string name="getting_location">Getting location…</string>
+    <string name="share_location_via">Share location via</string>
+    <string name="view_location_via">View location via</string>
+
+    <string name="turn_on_GPS">Turn on GPS</string>
+    <string name="permission_denied">GPS permission denied</string>
+
+    <string name="accuracy">Accuracy</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+
+    <string name="choose_link">Choose a link type</string>
+
+    <string name="always_ask">Ask me every time</string>
+    <string name="googlemaps" translatable="false">Google Maps</string>
+    <string name="openstreetmap" translatable="false">OpenStreetMap</string>
+    <string name="geouri" translatable="false">GeoURI</string>
+
+    <string name="settings">Settings</string>
+    <string name="link_type">Link type</string>
+
+    <string name="take_pic_btn_label">Take photos</string>
+    <string name="front_picture">Front Camera Picture</string>
+    <string name="back_picture">Back Camera Picture</string>
+
+    <string name="permission_location">Location permission is required to provide you with the finest information about your device</string>
+    <string name="start_new">New</string>
+    <string name="erase">Erase</string>
+    <string name="clear">Save</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    <string name="load">Load</string>
+    <string name="paint">Paint</string>
+    <string name="dialog_message">Dialog Message</string>
+    <string name="timeout_msg">Do you like your work?</string>
+    <string name="save_msg">Save Drawing?</string>
+    <string name="load_msg">Load Previous Painting?</string>
+    <string name="new_msg">Start New Drawing?</string>
+    <string name="clear_msg">Clear the Screen?</string>
+    <string name="CEFT">PREFS</string>
+
+
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="brush">Brush</string>
+
+    <string name="save">Save</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">"Password "</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_register">Register</string>
+    <string name="large_text">
+
+    </string>
+
+    <string name="title_activity_animal_cat">Animal_cat</string>
+    <string name="title_activity_drawing">Drawing</string>
+    <string name="title_activity_rhymes">Rhymes</string>
+
+
+    <string name="action_update">update</string>
+    <string name="action_about">about</string>
+
+    <string name="actionbar_search">search</string>
+    <string name="actionbar_more">more</string>
+    <string name="actionbar_webview_share">Share to</string>
+    <string name="actionbar_webview_cope">Copy the link</string>
+    <string name="actionbar_webview_open">Browser open</string>
+    <string name="actionbar_webview_refresh">Refresh the page</string>
+    <string name="actionbar_share">Share it with friends\(^o^)/~</string>
+    <string name="string_hit">Search or enter the url</string>
+    <string name="bt_open_url">open url</string>
+    <string name="text_baidu">Open baidu</string>
+    <string name="text_movie">Video playback</string>
+    <string name="text_upload_photo">Upload picture test</string>
+    <string name="text_js">Call, SMS, email, js injection</string>
+    <string name="js_android">Js intermediates with android native code</string>
+    <string name="deeplink">DeepLink test</string>
+    <string name="facebook">facebook</string>
+    <string name="youtube">youtube</string>
+    <string name="google">google</string>
+    <string name="tiktok">tiktok</string>
+    <string name="game">game</string>
+
+
+    <string name="title">Nav Music</string>
+    <string name="theme_color">Theme Color</string>
+    <string name="sleep_timer">Sleep Timer</string>
+    <string name="rate_app">Rate This App</string>
+    <string name="about">About</string>
+    <string name="search">Search</string>
+    <string name="favorites">Favorites</string>
+    <string name="about_text">Nav Music is an application to play mp3 music on your android device. With simple interface make you enjoy the music
+        easily. Custom your color as you feel.
+    </string>
+    <string name="ok">OK</string>
+    <string name="start_time">0.00</string>
+    <string name="final_time">0.00</string>
+    <string name="search_hint">Song Name</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="delete">Delete</string>
+    <string name="delete_text"> Are you sure you want to delete</string>
+    <string name="play_next">Play Next</string>
+
+
+</resources>

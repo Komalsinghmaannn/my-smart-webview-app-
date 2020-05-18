@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#000</color>
+  <!--  <color name="colorAccent">#FC58E5</color> -->
+   <!-- <color name="iconBackground">#FC58E5</color>-->
+    <color name="black_overlay">#66098C89</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#000</color>
+    <color name="half_black">#000000</color>
+    <color name="whitee">#EB6565</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#B805677F</color>
+    <color name="black_semi_transparent_pressed">#80738f</color>
+    <color name="gray_bg">#f1f1f1</color>
+    <color name="white">@android:color/white</color>
+    <color name="orange">#f06f15</color>
+
+    <color name="grey">#848282</color>
+    <color name="lightgrey">#a6FFFFFF</color>
+    <color name="lightorange">#A6FFA500</color>
+    <color name="black">#000000</color>
+    <color name="skyblue">#4BB4E9</color>
+
+    <color name="daynight_textColor">#6CBABB</color>
+    <color name="switchColor">#911DEE</color>
+
+
+
+    <color name="orangeDark">#f77000</color>
+
+    <color name="errorColor">#ffffff</color>
+
+
+    <color name="colorAccent">#ff525e</color>
+
+    <color name="primaryTitleColor">#D9000000</color>
+    <color name="primaryDescriptionColor">#8C000000</color>
+    <color name="primaryDateColor">#8C000000</color>
+    <color name="primaryBackgroundColor">#FAFAFA</color>
+    <color name="primaryCardBackgroundColor">#F5F5F5</color>
+
+    <!--Night Color-->
+    <color name="colorPrimaryNight">#212121</color>
+    <color name="colorPrimaryDarkNight">#000000</color>
+    <color name="colorAccentNight">#f44336</color>
+    <color name="primaryTitleColorNight">#FFFFFF</color>
+    <color name="primaryDescriptionColorNight">#B3FFFFFF</color>
+    <color name="primaryDateColorNight">#B3FFFFFF</color>
+    <color name="primaryBackgroundColorNight">#303030</color>
+    <color name="primaryCardBackgroundColorNight">#424242</color>
+
+
+    <color name="text_color">#ffffff</color>
+    <color name="color_black">#000000</color>
+    <color name="drawer_color">#335763</color>
+    <color name="light_color">#fafafa</color>
+    <color name="off_color">#dfdada</color>
+    <color name="gray_color">#9c9b9b</color>
+
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "650650592030",
+    "firebase_url": "https://mob-top-8a8b6.firebaseio.com",
+    "project_id": "mob-top-8a8b6",
+    "storage_bucket": "mob-top-8a8b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650650592030:android:767a4ff2b61c53255b9f0f",
+        "android_client_info": {
+          "package_name": "com.sempal.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650650592030-99o45f2rvv393f6idatvsfavc34upood.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkjOuF7rWGeTa03FScXLOBZBTVc-gIlGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650650592030-99o45f2rvv393f6idatvsfavc34upood.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

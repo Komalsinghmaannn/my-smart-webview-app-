@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="#000">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_gravity="center"
+                android:background="@drawable/gif"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mob Top with Corona News"
+                android:layout_gravity="center_horizontal"
+
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:shadowDx="@integer/small_size"
+                android:shadowDy="@integer/small_size"
+                android:shadowColor="#000000"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/input_layout_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center">
+                <EditText
+                    android:id="@+id/emailhome"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:hint="E-Mail"
+                    android:layout_gravity="center_horizontal"
+                    android:textColorHint="#ff525e"
+                    android:backgroundTint="#ff525e"
+                    android:inputType="textEmailAddress"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/input_layout_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center">
+
+                <EditText
+                    android:id="@+id/passowrdhome"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Passowrd"
+                    android:layout_gravity="center_horizontal"
+                    android:inputType="textPassword"
+                    android:textColorHint="#ff525e"
+                    android:backgroundTint="#ff525e"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/loginbtn"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="LOGIN"
+                android:textColor="#ff525e"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_transparent"/>
+
+            <TextView
+                android:id="@+id/regtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="If not Registered, Click Here"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:textColor="#FF0000"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

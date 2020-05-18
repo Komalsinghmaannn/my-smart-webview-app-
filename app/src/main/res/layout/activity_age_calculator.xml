@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="7dp"
+        android:id="@+id/ci_item_id">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:elevation="7dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/interest_linear"
+                android:layout_margin="3dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="#DD1735"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="90dp"
+                    android:text="Today's Date"
+                    android:drawablePadding="5dp"
+                    android:singleLine="true"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16dp"
+                    android:id="@+id/tvInterest" />
+
+                <EditText
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:hint="DD"
+                    android:maxLength="2"
+                    android:inputType="number"
+                    android:id="@+id/etAgeDay"
+                    android:clickable="true" />
+
+                <EditText
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:inputType="number"
+                    android:hint="MM"
+                    android:maxLength="2"
+                    android:id="@+id/etAgeMonth"
+                    android:clickable="true" />
+
+                <EditText
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:inputType="number"
+                    android:hint="YYYY"
+                    android:maxLength="4"
+                    android:id="@+id/etAgeYear"
+                    android:clickable="true" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:id="@+id/principal_linear"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="#090909"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="D.O.B"
+                    android:drawablePadding="5dp"
+                    android:singleLine="true"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:minWidth="90dp"
+                    android:textSize="16dp"
+                    android:id="@+id/tvAmount" />
+
+                <EditText
+                    android:layout_width="70dp"
+                    android:hint="DD"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:maxLength="2"
+                    android:layout_marginEnd="5dp"
+                    android:inputType="number"
+                    android:id="@+id/etBirhdayDay"
+                    android:clickable="true" />
+
+                <EditText
+                    android:layout_width="70dp"
+                    android:hint="MM"
+                    android:maxLength="2"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:inputType="number"
+                    android:id="@+id/etBirhdayMonth"
+                    android:clickable="true" />
+
+                <EditText
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:hint="YYYY"
+                    android:maxLength="4"
+                    android:layout_marginEnd="10dp"
+                    android:inputType="number"
+                    android:id="@+id/etBirhdayYear"
+                    android:clickable="true" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:textColor="#DD2C00"
+            android:background="#00B8D4"
+            android:textStyle="bold"
+            android:id="@+id/buttonCalculate"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="19dp"
+            android:text="CALCULATE"
+            android:layout_marginBottom="5dp"
+            android:elevation="9dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:elevation="7dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/year_linear"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="#F635D6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="100dp"
+                    android:text="Year"
+                    android:textStyle="bold"
+                    android:drawablePadding="5dp"
+                    android:singleLine="true"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16dp"
+                    android:id="@+id/tvYear" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:editable="false"
+                    android:textStyle="bold"
+                    android:text="0"
+                    android:id="@+id/etYear"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/month_linear"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="#F635D6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="100dp"
+                    android:text="Month"
+                    android:textStyle="bold"
+                    android:drawablePadding="5dp"
+                    android:singleLine="true"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16dp"
+                    android:id="@+id/tvMonth" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:editable="false"
+                    android:textStyle="bold"
+                    android:text="0"
+                    android:id="@+id/etMonth"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tAmount_linear"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="#F635D6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="100dp"
+                    android:text="Days"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:drawablePadding="5dp"
+                    android:singleLine="true"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:id="@+id/tvTamount" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:editable="false"
+                    android:textStyle="bold"
+                    android:text="0"
+                    android:id="@+id/tvResult"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.google.android.gms.ads.AdView
+            android:layout_marginTop="15dp"
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-6976351221643944/4403576767"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true">
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

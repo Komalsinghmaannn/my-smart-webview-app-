@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".about2">
+
+
+<ScrollView
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Online Video songs , Mp3 songs"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Phone Calls, Contacts"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Flash Light"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. QR Code Scanner"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5. QR Code Generator"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6. Drawing seats"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7. Phone Information"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8. Image to pdf converter"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9. Live location , copy ,share, view"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10. link copy"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11. jokes"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12. non veg jokes"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="13. Movies Download,music Download,Any download"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="14. All Type GK Question Answer"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15. Any News,live , google news"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="16. All programming language courses"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="17. Online games"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18. Image background remover"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="19. currency converter"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20. unit converter"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="21. All Social media"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="22. All search engines"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23. Live cricket, train status, weather"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24. Hotstar"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25. Shopping "
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="26. Mobile price "
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="27. Translator"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="28. Stopwatch"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="25dp"/>
+
+        <Button
+          android:layout_marginBottom="15dp"
+            android:background="#00B8D4"
+            android:layout_gravity="bottom|end"
+            android:onClick="go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+</RelativeLayout>

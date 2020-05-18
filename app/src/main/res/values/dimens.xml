@@ -1,0 +1,52 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin_bottom">50dp</dimen>
+    <dimen name="fab_margin_right">16dp</dimen>
+
+    <dimen name="brush">20dp</dimen>
+    <integer name="brush_size">20</integer>
+    <dimen name="icon_size">56dp</dimen>
+    <dimen name="endMargin">10dp</dimen>
+    <integer name="color_size">50</integer>
+
+    <dimen name="padding">10dip</dimen>
+
+
+
+    <dimen name="item_margin">1dp</dimen>
+    <dimen name="item_margin_half">1dp</dimen>
+
+    <dimen name="folder_column_width">120dp</dimen>
+
+    <dimen name="picture_column_width">90dp</dimen>
+
+
+    <dimen name="margin">8dp</dimen>
+
+    <dimen name="card_radius">4dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+
+
+
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+
+    <!-- Brush sizes -->
+    <dimen name="small_brush">10dp</dimen>
+    <integer name="small_size">10</integer>
+    <dimen name="medium_brush">20dp</dimen>
+    <integer name="medium_size">20</integer>
+    <dimen name="large_brush">30dp</dimen>
+    <integer name="large_size">30</integer>
+
+
+
+
+
+</resources>
